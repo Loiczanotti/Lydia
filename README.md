@@ -23,3 +23,8 @@ Persistent database for Android
 ## RXJAVA
 
 Library to implement reactive programmation
+
+## OKHttp
+
+Used to handle connection Issue and intercept api error.
+
