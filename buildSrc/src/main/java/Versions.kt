@@ -1,0 +1,16 @@
+object Versions {
+    const val GLIDE: String = "4.13.1"
+    const val OK_HTTP: String = "4.9.3"
+    const val RETROFIT: String = "2.9.0"
+    const val GSON: String = "2.9.0"
+    const val RX_KOTLIN: String = "3.0.1"
+    const val RX_JAVA3: String = "3.1.3"
+    const val KTX: String = "1.7.0"
+    const val APP_COMPAT: String = "1.4.1"
+    const val ANDROID_GRADLE_PLUGIN = "7.1.2"
+    const val MATERIAL: String = "1.5.0"
+    const val DAGGER: String = "2.41"
+    const val NAVIGATION = "2.4.1"
+    const val KOTLIN = "1.6.0"
+    const val ROOM = "2.4.2"
+}

@@ -1,0 +1,1 @@
+/Users/loiczanotti/AndroidStudioProjects/Lydiaproject/buildSrc/build/classes/kotlin/main/Libs.class:/Users/loiczanotti/AndroidStudioProjects/Lydiaproject/buildSrc/build/classes/kotlin/main/Versions.class

@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.loicz.lydiaproject"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            buildConfigField "String", "BASE_URL", "\"https://randomuser.me/api/1.0/\""
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "BASE_URL", "\"https://randomuser.me/api/1.0/\""
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation Libs.KTX
+    implementation Libs.APP_COMPAT
+    implementation Libs.MATERIAL
+    implementation Libs.DAGGER
+    kapt Libs.DAGGER_PROCESSORS
+    implementation Libs.NAVIGATION
+    implementation Libs.GSON
+    implementation Libs.NETWORK
+    implementation Libs.RX_JAVA3
+    implementation Libs.RX_KOTLIN
+    implementation Libs.GLIDE
+    implementation Libs.ROOM
+    kapt Libs.ROOM_PROCESSOR
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lydia project</string>
+
+    <string name="fragment_detail_contact_name">%s %s</string>
+    <string name="fragment_detail_contact_address">%s\n%s %s\n%s</string>
+    <string name="fragment_detail_contact_gender_title">Gender</string>
+    <string name="fragment_detail_contact_gender_email">Email</string>
+    <string name="fragment_detail_contact_gender_login">Login</string>
+    <string name="fragment_detail_contact_gender_address">Address</string>
+    <string name="fragment_detail_contact_gender_phone">Phone</string>
+    <string name="fragment_detail_contact_gender_nat">Nat</string>
+    <string name="fragment_detail_contact_gender_cell">Cell</string>
+    <string name="fragment_detail_contact_gender_dob">Dob</string>
+    <string name="fragment_detail_contact_gender_registered">Registered</string>
+    <string name="fragment_contact_list_title">Contacts</string>
+
+</resources>
